@@ -1,3 +1,7 @@
-let now = new Date(21-04-2023);
-
-alert("Faltan 23 dias para este dia.");
+var Dato = new Date();
+var enddato = new Date();
+var days =24;
+            Dato.setDate(Dato.getDate() - (Dato.getDay() + 2)%7);
+           enddato.setDate(Dato.getDate() + days);
+            enddato.getTime();
+            countDiv = document.getElementById("Dato");
